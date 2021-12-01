@@ -1,0 +1,269 @@
+body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+  transition: 0.3s; }
+
+p {
+  margin: 0; }
+
+.row {
+  --bs-gutter-x: 0; }
+
+body {
+  font-family: sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+a {
+  text-decoration-line: none;
+  font-size: 1.2vw;
+  text-decoration: none;
+  color:  #c79500;
+  font-weight: bold;
+}
+a:hover{
+  color: #787809;
+}
+
+li {
+  list-style: none; }
+
+
+.containerrr {
+  max-width: 80vw;
+  margin: 0 auto; }
+
+.header {
+  margin: 0;
+  background-image: url("img/layer 20.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3rem 5rem;
+  grid-gap: 2rem; }
+
+.header-logo {
+  font-family: italic; }
+  .header-logo h1 {
+    font-size: 4vw; }
+  .header-logo svg {
+    width: 6vw; }
+
+.header-text h1 {
+  color: #ffc600;
+  font-size: 4vw; }
+
+.header-info {
+  margin-top: 25px;
+  background-color: #ffc600;
+  box-shadow: -0.5vw -0.5vw 0px, -1vw -1vw 0vw #7b6b1f;
+  color: #c79500; }
+  .header-info li {
+    text-align: center;
+    display: block;
+    height: 100%;
+    width: 100%;
+    color: #c79500;
+    font-size: 1.3vw; }
+    .header-info li:hover {
+      background-color: #ffa700;
+      transition: 0.3s; }
+  .header-info ul {
+    padding-left: 0; }
+    .header-info ul li:hover {
+      background-color: black;
+      background-color: #ffa700;
+      transition: 0.3s; }
+
+.bordered-link {
+  border-left: 1px solid #c79500;
+  border-right: 1px solid #c79500; }
+
+.icon-area {
+  background-color: #f7f7f7; }
+
+.honey {display: flex;
+  background-image: url("img/honeycomb.png");
+  padding-bottom: 2vw; }
+
+.honey-title h2 {
+  color: white; }
+
+.card__info {
+
+  font-size: 1.5vw;
+  position: relative;
+  background-color: #ff9f00;
+  color: white; }
+
+.info__button {
+  position: absolute;
+  right: 0.3vw;
+  bottom: 0.3vw; }
+
+.card__date {
+  text-transform: uppercase;
+  background-color: #ecb200; }
+
+.month {
+  color: #c9651e;
+  font-weight: bold; }
+.honey__img{
+  width: 100%;
+  height: 100%
+}
+.card__twitter {
+  position: relative;
+  background-color: #ff9f00; }
+
+.bi-twitter {
+  color: #d68100;
+  font-size: 15vw; }
+/*/////////////////////////////////*/
+.about {
+  background-color: #4a4a4a; }
+
+.about-list {
+  font-size: 2vw; }
+  .about-list li {
+    color: #eebf0b;
+    list-style: disc;
+    padding-top: 1vw; }
+  .about-list span {
+    color: #7d7d7c; }
+
+.about-title {
+  color: #eebf0b; }
+
+.footer {
+  background-color: #4a4a4a;
+  border-top: 5px solid #343434; }
+  .footer svg {
+    width: 15px; }
+
+@media (max-width: 960px) {
+  .header-logo {
+    font-family: italic; }
+    .header-logo h1 {
+      font-size: 4vw; }
+
+  .containerrr {
+    max-width: 100%; }
+
+  .header-info {
+    font-weight: bold; }
+
+  .bi-plus {
+    font-size: 3vw; } }
+@media (max-width: 768px) {
+  .header {
+    padding: 0; }
+
+  .header-logo {
+    background: linear-gradient(#616161, #444444); }
+    .header-logo h1 {
+      font-size: 3vw;
+      font-family: sans-serif; }
+    .header-logo p {
+      display: none; }
+    .header-logo svg {
+      width: 5vw; }
+
+  .header-info {
+    box-shadow: none; }
+    .header-info a {
+      font-size: 3.2vw;
+      font-weight: bold; }
+
+  .honey {
+    background-image: none;
+    padding: 0; }
+    .honey .wrapper {
+      justify-content: space-around; }
+
+  .card__twitter {
+    margin-top: 1vw;
+    margin-bottom: 0;
+    background-color: #f5c507;
+    justify-content: space-around;
+    display: flex; }
+
+  .bi-twitter {
+    font-size: 30vw; }
+    .bi-twitter span {
+      display: none; }
+
+  .card__twitter_chat {
+    display: flex;
+    flex-direction: column;
+    padding: 2vw; }
+    .card__twitter_chat textarea, .card__twitter_chat input {
+      border: none;
+      white-space: normal;
+      margin: 2vw 0;
+      padding: 1.5vw;
+      border-radius: 20px; }
+
+  .text__area input {
+    border-radius: 20px 0 0 20px; }
+
+  .tweet__button {
+    background: linear-gradient(#feaa00, #e48f00);
+    color: white;
+    border-radius: 20px;
+    margin: 2vw 0;
+    padding: 1.5vw;
+    border-radius: 0 20px 20px 0;
+    border: none; }
+
+  .card__info {
+    font-size: 2vw;
+    width: 49%; }
+
+  .card__video {
+    width: 49%; }
+
+  .carousel-control-next, .carousel-control-prev, .honey-title, .header-text, .card__date, .about-list, .DesignBy, .card__twitter .bi-plus {
+    display: none;
+    background-image: none;
+    padding-bottom: 0; }
+
+  .about-img {
+    margin: 0 auto;
+    width: 90vw; }
+
+  .Footer svg {
+    width: 30vw; } }
+@media (max-width: 576px) {
+  .header-info a {
+    font-size: 2.7vw;
+    font-weight: bolder; }
+
+  .icon-area h4 {
+    font-size: 3.5vw; }
+  .icon-area img {
+    width: 50%;
+    height: auto; }
+
+  .card__info p {
+    overflow-y: scroll;
+    height: 25vw;
+    font-size: 3.5vw; }
+
+  .bi-twitter {
+    display: none; }
+
+  .card__twitter_chat {
+    margin: 0 auto;
+    width: 100%; }
+
+  .bi-plus {
+    font-size: 4vw; } }
+@media (max-width: 576px) {
+  .header-logo {
+    justify-content: center;
+    width: 100%; }
+
+  .header-info {
+    width: 100%; } }
+
+/*# sourceMappingURL=index.css.map */
